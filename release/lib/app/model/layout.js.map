@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"layout.js",
+"lineCount":3,
+"mappings":"A;AAAAA,MAAA,6HAQG,QAAA,CAAUC,CAAV,CAAgBC,CAAhB,CAAwBC,CAAxB,CAAyCC,CAAzC,CAAkDC,CAAlD,MAKQC,EAAiB,IAAID,CAAJ,CAAU,IAAID,CAAJ,0CAAV,CAEvB,IAAIF,CAAJ,IAFuB,CALzB,CAQEK,EAAe,IAAIF,CAAJ,CAAU,IAAID,CAAJ,wCAAV,CAEf,IAAIF,CAAJ,IAFe,CARjB,CAcEM,EAAkBA,QAAAA,CAASC,CAATD,EACjBE,CADiBF,CACH,IAAIH,CAAJ,CAAU,IAAID,CAAJ,gDACiBK,CADjB,aAEdE,QAAAA,CAASC,CAATD,QACFC,EAAAC,SADEF,KAFc,EAAV,CAKd,IAAIT,CAAJ,IALc,CADGM,OAQd,KAAIL,CAAJ,QACKO,CADL,mCAGeI,QAAAA,CAASC,CAATD;AACKC,CADLD,CAHf,EARcN,CAdpB,0BAkCiBQ,QAAAA,SACJV,EADIU,CAlCjB,iBAqCeC,QAAAA,SACFV,EADEU,CArCf,oBAwCkBC,QAAAA,CAAST,CAATS,QACXV,EAAA,CAAgBC,CAAhB,CADWS,CAxClB,EARH;",
+"sources":["layout.js.uncompressed.js"],
+"names":["define","json","Memory","ObjectStoreModel","JsonRest","Cache","accordionStore","maintabStore","governmentModel","key","treeDataStore","getChildren","object","children","mayHaveChildren","item","getAccordionStore","getMainTabStore","getGovernmentModel"]
+}

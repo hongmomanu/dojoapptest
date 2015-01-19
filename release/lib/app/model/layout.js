@@ -1,0 +1,4 @@
+//>>built
+define("app/model/layout",["dojo/json","dojo/store/Memory","dijit/tree/ObjectStoreModel","dojo/store/JsonRest","dojo/store/Cache"],function(k,b,e,c,d){var f=new d(new c({target:"app/model/data/accordion.json"}),new b({})),g=new d(new c({target:"app/model/data/maintab.json"}),new b({})),h=function(a){a=new d(new c({target:"app/model/data/treedata.json?key\x3d"+a,getChildren:function(a){return a.children||[]}}),new b({}));return new e({store:a,query:{id:"root"},mayHaveChildren:function(a){return"children"in
+a}})};return{getAccordionStore:function(){return f},getMainTabStore:function(){return g},getGovernmentModel:function(a){return h(a)}}});
+//# sourceMappingURL=layout.js.map

@@ -1,0 +1,5 @@
+//>>built
+define("app/views/layout","dojo/parser dijit/layout/AccordionContainer dijit/layout/ContentPane dijit/layout/BorderContainer dijit/layout/TabContainer dojox/layout/ExpandoPane".split(" "),function(g,h,f,l,k){return{initlayout:function(){var b=this;require(["app/model/layout"],function(c){var d=new h({style:"height: 100%"},"markup");c.getAccordionStore().query().forEach(function(a){d.addChild(new f({title:a.title,searchkey:a.title,tooltip:a.title,iconClass:a.iconcss,onShow:function(){b.initLeftTree(this)},
+content:a.content}))});var e=new k({style:"height: 100%",region:"center",tabStrip:"true",tabPosition:"top"},"maintab");c.getMainTabStore().query().forEach(function(a){e.addChild(new f({title:a.title,content:a.content}))});e.startup();d.startup();g.parse()})},initLeftTree:function(b){testobj=b;require(["app/model/layout","dijit/Tree"],function(c,d){dojo.query(".navtree",b.domNode).forEach(function(e){(new d({model:c.getGovernmentModel(b.searchkey),onLoad:function(){},onClick:function(a){},persist:!1},
+e)).startup()})})}}});
+//# sourceMappingURL=layout.js.map

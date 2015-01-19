@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"layout.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,yEAKG,QAAA,CAASC,CAAT,CAAgBC,CAAhB,EAEID,CAAAE,WAAA,EAFJ,CALH;",
+"sources":["layout.js.uncompressed.js"],
+"names":["define","layout","on","initlayout"]
+}
