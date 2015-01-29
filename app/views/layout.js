@@ -80,7 +80,6 @@ define([
 					
 					});
 
-                                
 								//dom.byId('image').src = '../resources/images/'+item.id+'.jpg';
 
 							},
