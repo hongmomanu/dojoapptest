@@ -16,7 +16,9 @@ define([
 	}), new Memory({}));
 	var maintabStore = new Cache(new JsonRest({
 		target: "app/model/data/maintab.json"
-	}), new Memory({}));	
+	}), new Memory({}));
+
+
 		
 	
 					
@@ -48,7 +50,10 @@ define([
 		},
 		getGovernmentModel:function(key){
 			return governmentModel(key);
-		}
+		},
+        getTabContent:function(name){
+            //return governmentModel(key);
+        }
 		
         }				
         				

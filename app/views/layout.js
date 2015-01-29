@@ -53,7 +53,7 @@ define([
         },
 	initLeftTree:function(obj){
 		//console.log(obj);
-		testobj=obj;
+		//testobj=obj;
 		require(["app/model/layout","dijit/Tree"],
 			function(layout,Tree){
 			dojo.query('.navtree',obj.domNode).forEach(function(treeitem){
@@ -64,7 +64,23 @@ define([
 								//dom.byId('image').src = '../resources/images/root.jpg';
 							},
 							onClick: function(item){
+
 								//alert(1);
+                                var maintab=dijit.byId('maintab');
+                                require(["dojo/text!app/views/html/content.html"],function(html){
+					//console.log(html);
+					var panel=new ContentPane({
+						title: '11',
+						closable:true,
+						selected: true,
+						content: html
+					});
+					maintab.addChild(panel);
+					maintab.selectChild(panel);
+					
+					});
+
+                                
 								//dom.byId('image').src = '../resources/images/'+item.id+'.jpg';
 
 							},
